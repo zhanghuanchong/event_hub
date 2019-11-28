@@ -1,0 +1,8 @@
+name: event_hub
+description: Dispatch and listen events everywhere
+version: 0.0.1
+author: Hans Zhang <devwingcom@gmail.com>
+repository: https://github.com/zhanghuanchong/event_hub.git
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
