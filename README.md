@@ -61,5 +61,9 @@ For instance, in a Flutter application, we need below technology to communicate 
 
   You can pass callback as parameters, but this is dirty and not flexible. When there are many levels between the widgets you want to communicate, you have to pass the callback to each level.
 
+### Event Bus
+
+This package is inspired by the `EventBus` package: [](https://github.com/marcojakob/dart-event-bus), but with `EventHub`, you even don't required to define a event class, just ensure that the `eventName` are matched.
+
 ## License
 The MIT License (MIT)
