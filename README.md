@@ -6,7 +6,7 @@ Dispatch and listen events everywhere using Dart [Stream](https://api.dartlang.o
 
 ## How
 
-1. Create an Event Hub
+### 1. Create an Event Hub
 
 You can define a global event bus in your app, just like this:
 
@@ -16,7 +16,7 @@ import 'package:event_hub/event_hub.dart';
 EventHub eventHub = EventHub();
 ```
 
-2. Register Listeners
+### 2. Register Listeners
 
 ```dart
 eventHub.on('yourEventName', (dynamic data) {
@@ -33,7 +33,7 @@ StreamSubscription subscription = eventHub.on('yourEventName', (_) {});
 subscription.cancel();
 ```
 
-3. Fire the event
+### 3. Fire a event
 
 ```dart
 eventHub.fire('yourEventName', 'some data');
