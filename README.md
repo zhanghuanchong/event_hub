@@ -5,7 +5,7 @@
 
 ## What
 
-Dispatch and listen events everywhere using Dart [Stream](https://api.dartlang.org/stable/dart-async/Stream-class.html). Also know as `Event Bus`.
+Dispatch and listen events everywhere and whenever using Dart [Stream](https://api.dartlang.org/stable/dart-async/Stream-class.html). Also know as `Event Bus`.
 
 ## How
 
