@@ -2,6 +2,7 @@ name: event_hub
 description: Dispatch and listen events everywhere
 version: 0.0.1
 author: Hans Zhang <devwingcom@gmail.com>
+homepage: https://github.com/zhanghuanchong/event_hub.git
 repository: https://github.com/zhanghuanchong/event_hub.git
 
 environment:

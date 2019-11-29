@@ -63,7 +63,7 @@ For instance, in a Flutter application, we need below technology to communicate 
 
 ### Event Bus
 
-This package is inspired by the `EventBus` package: [](https://github.com/marcojakob/dart-event-bus), but with `EventHub`, you even don't required to define a event class, just ensure that the `eventName` are matched.
+This package is inspired by the `EventBus` package: [https://github.com/marcojakob/dart-event-bus](https://github.com/marcojakob/dart-event-bus), but with `EventHub`, you even don't need to define a event class.
 
 ## License
 The MIT License (MIT)
