@@ -1,5 +1,8 @@
 # Event Hub
 
+[![Star this Repo](https://img.shields.io/github/stars/zhanghuanchong/event_hub)](https://github.com/zhanghuanchong/event_hub)
+[![Pub Package](https://img.shields.io/pub/v/event_hub.svg)](https://pub.dev/packages/event_hub)
+
 ## What
 
 Dispatch and listen events everywhere using Dart [Stream](https://api.dartlang.org/stable/dart-async/Stream-class.html). Also know as `Event Bus`.
@@ -45,7 +48,7 @@ You can define your listeners or fire the events everywhere in your app. For ins
 
 ## Why
 
-The `Event Hub` allows listeners to publishers to fire events and subscribe for events, everywhere in a Dart or Flutter application.
+The `Event Hub` allows publishers to fire events and listeners to subscribe for events, everywhere in a Web or Flutter application.
 
 For instance, in a Flutter application, we need below technology to communicate between components:
 

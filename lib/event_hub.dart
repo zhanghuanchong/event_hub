@@ -9,7 +9,7 @@ class EventHub {
   /// Create a [EventHub]
   EventHub({bool sync = false})
       : _streamController =
-  StreamController<_EventHubEvent>.broadcast(sync: sync);
+            StreamController<_EventHubEvent>.broadcast(sync: sync);
 
   /// Register a event listener. The [callback] will be called once the [name]
   /// is fired.
