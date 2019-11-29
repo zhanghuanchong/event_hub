@@ -24,7 +24,7 @@ EventHub eventHub = EventHub();
 ```dart
 eventHub.on('yourEventName', (dynamic data) {
   // Your handler
-  print(data); // some data
+  print(data); // some optional data
 });
 ```
 
@@ -39,7 +39,7 @@ subscription.cancel();
 ### 3. Fire a event
 
 ```dart
-eventHub.fire('yourEventName', 'some data');
+eventHub.fire('yourEventName', 'some optional data');
 ```
 
 That's all!
