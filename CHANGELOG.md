@@ -1,3 +1,7 @@
+## [0.2.1] - Update example
+
+* Update the example to use null safety
+
 ## [0.2.0] - Null safety support
 
 * Added the null safety support
