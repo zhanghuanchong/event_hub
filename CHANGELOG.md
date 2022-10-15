@@ -1,3 +1,7 @@
+## [0.2.0] - Null safety support
+
+* Added the null safety support
+
 ## [0.1.1] - Add example
 
 * Created a simple Flutter example

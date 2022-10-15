@@ -1,7 +1,6 @@
 name: event_hub
 description: Dispatch and listen events everywhere and whenever. Also know as `Event Bus`.
 version: 0.2.0
-author: Hans Zhang <devwingcom@gmail.com>
 homepage: https://github.com/zhanghuanchong/event_hub.git
 repository: https://github.com/zhanghuanchong/event_hub.git
 
